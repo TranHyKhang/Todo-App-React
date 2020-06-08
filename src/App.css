@@ -1,5 +1,55 @@
 .App {
   text-align: center;
+  margin: auto;
+    width: 375px;
+    background-color: rgb(27, 219, 219);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title-list {
+  margin-left: 20px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.menu-icon {
+  width: 32px;
+  float: left;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-container {
+
+}
+
+.add-form{
+  display: none;
+}
+
+.add-container:hover .add-form{
+  display: block;
+}
+
+.add-icon {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  box-shadow: 3px 3px rgba(0,0,0,.1);
+  margin:  30px auto 0 auto;
+}
+
+
+
+
+.add-icon img {
+  margin: auto;
 }
 
 .App-logo {
